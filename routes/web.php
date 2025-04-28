@@ -17,3 +17,12 @@ use App\Livewire\Counter;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/practice', function () {
+    return view('layouts/practice');
+});
+Route::get('/tailwind', function () {
+    return view('layouts/tailwindpractice');
+});
+Route::get('/forms', function () {
+    return view('layouts/formpractice');
+});

@@ -6,7 +6,13 @@ use Livewire\Component;
 
 class Counter extends Component
 {
+    public $livewirekamessage;
+    
+    public function mount(){
+        $this->livewirekamessage = "This is mount message from the Counter - Livewire!";
+    }
     public $count = 0;
+
 
     public function increment()
     {

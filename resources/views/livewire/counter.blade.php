@@ -1,4 +1,5 @@
 <div class="p-6 bg-white rounded-lg shadow-md">
+    <h3 class="text-2xl font-bold mb-4">{{$livewirekamessage}}</h3>
     <h2 class="text-2xl font-bold mb-4">Counter Example</h2>
     
     <div class="flex items-center space-x-4">
